@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes</title>
+    <link href="styes.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+    <script src="jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+    <link rel="stylesheet" href="jquery-nice-select-1.1.0/css/nice-select.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <div id=sel>
+    <select id = artist>
+      <option value="nameArtist">Artist Name</option>
+      <option value="drake">Drake</option>
+      <option value="tate-mcrae">Tate McRae</option>
+      <option value="bruno-mars">Bruno Mars</option>
+      <option value="taylor-swift">Taylor Swift</option>
+    </select>
+  </div>
+  <br>
+  <div id=sel2>
+    <select id = songNum>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="25">25</option>
+      <option value="50">50</option>
+    </select>
+  </div>
+    <br><br><br>
+    <button id="go">GO!</button>
+    <br>
+    <table id="output" border="1">
+      <thead>
+        <tr>
+          <th scope="col">Rank</th>
+          <th scope="col">Artist</th>
+          <th scope="col">Song</th>
+          <th scope="col">Album</th>
+          <th scope="col">Cover</th>
+          <th scope="col">Preview</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    
+
+</body>
+</html>
