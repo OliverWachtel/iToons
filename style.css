@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    padding: 10px;
+    background: #2a9d8f;
+}
+
+#output {
+    background: #e76f51;
+    text-align: center;
+}
+
+button {
+  display: block;
+  height: 35px;
+  width: 55px;
+  font-size: 20px;
+  border-radius: 20%;
+  cursor: pointer;
+  background: rgb(55, 220, 8);
+  color: black;
+}
+button:hover {
+    background-color: #264653;
+    color: rgb(255, 255, 255);
+}
+
+#first {
+  text-align: center;
+  background-color: #FFD700;
+}
+
+#second {
+  text-align: center;
+  background-color: #C0C0C0;
+}
+
+#third {
+  text-align: center;
+  background-color: #CD7F32;
+}
+
+#placement {
+  text-align: center;
+  background-color: #696969;
+}
+
+#select {
+  margin: auto;
+}
+
+#sel {
+  display: block;
+  height: 35px;
+  width: 55px;
+  font-size: 20px;
+  border-radius: 20%;
+}
+
+#sel2 {
+  marign: auto;
+  width: 150px
+}
+
+#songNum {
+  margin: auto;
+}
